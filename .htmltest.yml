@@ -1,0 +1,14 @@
+DirectoryPath: public
+# LogLevel: 1
+CheckLinks: true
+IgnoreURLs:
+  - https://www.linkedin.com/in/sorinsbarnea/
+  - https://www.redhat.com/en
+ExternalTimeout: 5
+TestFilesConcurrently: true
+DocumentConcurrencyLimit: 8
+# CheckInternal: false
+IgnoreEmptyHref: true
+IgnoreAltMissing: true
+CheckInternalHash: false
+# due to: target is a directory, href lacks trailing slash

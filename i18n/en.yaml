@@ -1,0 +1,6 @@
+article_wordcount:
+  other: ' '  # bug, empty string does not override
+article_readcount:
+  other: ' '
+copyright_theme_by:
+  other: ' '

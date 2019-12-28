@@ -1,0 +1,89 @@
+---
+layout: page
+status: publish
+published: true
+title: Contact
+permalink: /contact/
+categories: []
+tags: [contact]
+---
+
+I would like to ask you to **do your best not to spam me** with lifetime opportunities, offers or programs I did not ever looked for.
+
+If you do not have time to write a long message you can try to send me a direct message via twitter.
+
+If you prefer email my address is {{% param email_protected %}} which can also be used with iMessage.
+
+### IM
+Most of the time you can find me on freenode irc channels, using `zbr` or `ssbarnea` nicknames. Common channels: `#oooq` `#ansible-molecule` `#ansible-devel` `#pycontribs`.
+
+### Online profiles
+
+* [stackoverflow](https://stackoverflow.com/users/99834/sorin)
+* [github](https://github.com/ssbarnea/)
+* [linkedin](https://www.linkedin.com/in/sorinsbarnea/)
+
+
+### SSH public key
+
+```plaintext
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCfoZsNvyBlZJYuLSz+qw4xunkjETo6NElkYw5dCEFl6W5JDVZRjN3ClVHKDzEa2+S9jGzdRC3nlWA5vVRIvH/tX5tT+rLxkr6rgEiSajvwq5fpmla53cFX9W/y6qhL8tz//1Q3BskJS/NUPy8oUdRk7bcSrLyLJaDJxmf1HEE7k3TJ7+9sCEqBWnpQpFWUrTdaPQZISSy172P+beWVCuZQ69mowJ1/6h7czcd+HoZwe3v6qpkjbCmx9FTCYWuua2n7BcMzB5Hh5y4ovNab9zBKoUviOdBpC3ut159WVgQmpnOHPem0whNTxhADEcEcl6HfMi/MqZi6gmjx2ZkaiJpnHL0y1M/4qaEQemsgvEeFZDdJDdG1x42rw5e5vzh4OHAhGEKfA8NCcIWyd9wgusJoatyS/KKybmZ0Q0YOOB5AhDknaClRueBHkvg3vLB6sE47RlFgXTwZrS9N1pl89/4xX6dcnugTPxLm+BqqeUaDKeV81PEao4RVOxuvnTPVKjJhaWuvfmp65ZFQlQYiGWQ7latPEMaYLYwlvgTKBayPwZJJkEGRMjlY/6qWGQWkKzjhgRlgLwHcwLj3GPbxX4vmIsgqBI06NngETWztR71hU/CUz+ZGKQsZjhxqXZkueeW2iLFtGPggGawKgEbhx0eRHBnxrKzPuYDD8BF3q8o71w== github-ssbarnea
+```
+
+### GPG public key
+
+```plaintext
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG/MacGPG2 v2.0.28
+
+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
+oTLYpdebB73h/9WRaE8x44BS6R8jK1uW7g==
+=dWGK
+-----END PGP PUBLIC KEY BLOCK-----
+```
+

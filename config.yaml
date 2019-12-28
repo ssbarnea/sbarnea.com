@@ -1,0 +1,205 @@
+baseURL: "https://sbarnea.com"
+disablePathToLower: false
+languageCode: "en-us"
+title: "Sorin Sbarnea's Crib"
+# disableKinds: ["taxonomy", "taxonomyTerm"]
+theme: "pure"
+# goa pure book
+enableGitInfo: true
+
+PygmentsCodeFences: false
+
+defaultContentLanguage: en
+footnoteReturnLinkContents: ↩
+hasCJKLanguage: false
+paginate: 7
+enableEmoji: true
+googleAnalytics: UA-45337128-1
+permalinks:
+  # posts: /:year/:month/:filename/
+  posts: /:sections/:slug
+publishDir: public
+
+taxonomies:
+    category : categories
+    tag : tags
+    series : series
+outputFormats:          # use for search. recommend not to modify
+  SearchIndex:
+    mediaType: "application/json"
+    baseName: "searchindex"
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+    home: ["HTML","RSS","SearchIndex"]  # recommend not to modify
+# sitemap
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
+
+# markup:
+#   blackFriday:
+#     angledQuotes: true
+menu:
+  main:
+    - identifier: home
+      name: Home
+      title: Home
+      url: /
+      weight: 1
+
+    - identifier: archives
+      name: Archives
+      title: Archives
+      url: /posts/
+      weight: 2
+
+    - identifier: categories
+      name: Categories
+      title: Categories
+      url: /categories/
+      weight: 3
+
+    - identifier: tags
+      name: Tags
+      title: Tags
+      url: /tags/
+      weight: 4
+
+    - identifier: about
+      name: About
+      title: About
+      url: /about/
+      weight: 5
+
+    - identifier: contact
+      name: Contact
+      title: Contact
+      url: /contact/
+      weight: 6
+
+params:
+  since: 2006
+  dateformat: "2006-01-02"  # goa
+  dateFormatToUse: "2006-01-02"
+  enablePostCopyright: false
+  # the directory under content folder that you want to render
+  mainSections: ["posts"]
+  # Enable/Disable menu icons
+  # Icon Reference: http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html
+  enableMathJax: false
+  # highlightjs:
+  #   langs: ["python", "javascript"] # refer to http://staticfile.org/, search highlight.js, already have highlight.min.js
+  email_protected: |
+    sorin.sbarnea@gmail.com
+  # <a target="_blank" href="https://mailhide.io/e/XHncT">{{result.shortenUrlComposed}}</a>
+  customCSS: css/custom.css
+
+  menuIcons:
+    enable: true
+    home: icon-home-fill
+    archives: icon-archives-fill
+    categories: icon-folder
+    tags: icon-tags
+    repository: icon-project
+    books: icon-book-fill
+    links: icon-friendship
+    about: icon-cup-fill
+    contact: icon-email
+
+  # profile
+  profile:
+    enabled: true # Whether to show profile bar
+    avatar: avatar.jpg
+    gravatar: sorin.sbarnea@gmail.com
+    author: Sorin Sbarnea
+    author_title: /dev/null
+    author_description: <..>
+    location: Norwich, United Kingdom
+    # follow: https://github.com/ssbarnea
+    # Social Links
+    social:
+      links:
+        github: https://github.com/ssbarnea
+        twitter: https://twitter.com/sbarnea
+        facebook: https://www.facebook.com/sorin.sbarnea
+        rss: /index.xml
+      link_tooltip: false # enable the social link tooltip, options: true, false
+  # Site
+  site:
+    logo:
+      enabled: true
+      width: 40
+      height: 40
+      url: favicon.ico
+    title: Sorin Sbarnea's blog
+    favicon: favicon.ico
+    board: <p>Migration in progress,... expect a lot of broken content till I finish it.</p>
+
+  # Share
+  # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
+  share:
+    enable: true
+    sites: facebook,twitter,linkedin
+    # mobile_sites: weibo,qq,qzone
+
+  # Comment
+  comment:
+    type: disqus
+    disqus: sbarnea # enter disqus shortname here
+
+  # Donate
+  donate:
+    enable: false
+    wechatpay:
+      qrcode: donate/wechatpayimg.png
+      title: 微信支付
+    alipay:
+      qrcode: donate/alipayimg.png
+      title: 支付宝
+
+  # PV
+  pv:
+    busuanzi:
+      enable: false
+    leancloud:
+      enable: false # leancloud
+      app_id: # leancloud <AppID>
+      app_key: # leancloud <AppKey>
+
+  # wordcount
+  postCount:
+    enable: true
+    wordcount: false
+    min2read: true # read time
+
+  # config
+  config:
+    skin: # theme color default is white. other type [theme-black,theme-blue,theme-green,theme-purple]
+    layout: main-center # main-left main-center main-right
+    excerpt_link: Read More
+    toc: true
+
+  # Sidebar
+  sidebar: left
+
+  # Search
+  search:
+    enable: true # enable search. thanks for https://raw.githubusercontent.com/ppoffice/hexo-theme-icarus/master/source/js/insight.js
+
+  # Sidebar only the following widgets. you can remove any you don't like it.
+  widgets:
+    - board
+    - category
+    # - tag
+    - recent_posts
+
+deployment:
+  targets:
+    - name: aws
+      URL: s3://sbarnea.com?region=eu-west-1
+  # matchers:
+  #   - pattern: "^posts\\/"
