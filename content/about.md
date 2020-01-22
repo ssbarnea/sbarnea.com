@@ -35,7 +35,9 @@ There are also few other projects which I am involved with:
 
 You may also want to check the list of [tools]({{< ref "tools.md" >}}) I use and occasionally fix a bug or two in those too.
 
-# Opening a blog
-Back in 2008 I opened this blog for posting articles related to software internationalisation. It is likely that some of the articles are going to be specific to my native language, Romanian.
+# Website timeline
 
-During the years spend in software internationalization and localization managed to made me see software with many kinds of eyes, I still happily offer my support to those that in need of help in that area.
+* 2019-12: I decided to migrate to [Hugo](https://gohugo.io/) from [GitBook](https://www.gitbook.com/) and, at least for the moment use the [hugo-theme-pure](https://github.com/xiaoheiAh/hugo-theme-pure/issues). The theme has lots of issues but most of them seem solvable.
+* 2018: I move from Medium to GitBook.
+* ????: I use Jekyll and Git Pages for a while.
+* 2008: I opened this blog for posting articles related to software internationalization. It is likely that some of the articles are going to be specific to my native language, Romanian. During the years spend in software internationalization and localization managed to made me see software with many kinds of eyes, I still happily offer my support to those that in need of help in that area. At that time I used WordPress...

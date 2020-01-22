@@ -3,3 +3,4 @@ tmp
 bin
 resources/_gen
 public2
+node_modules
