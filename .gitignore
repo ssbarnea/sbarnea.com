@@ -4,3 +4,4 @@ bin
 resources/_gen
 public2
 node_modules
+yarn.lock
