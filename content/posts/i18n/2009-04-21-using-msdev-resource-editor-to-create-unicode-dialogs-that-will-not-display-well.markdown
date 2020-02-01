@@ -43,4 +43,3 @@ Bugs found on Microsoft Connect: [176612](https://connect.microsoft.com/VisualSt
 ## And the DIY formula
 
 Open the RC file using text editor and save it using **File > Advanced Save Options** and select **Unicode - Codepage 1200**. It took me quite some time to figure it out just because several people considered that Unicode related bugs are not so important. Maybe we can suggest to rename the Unicode option from the Application Wizard to ["Partially Unicode".](https://connect.microsoft.com/VisualStudio/feedback/ViewFeedback.aspx?FeedbackID=162872)
-

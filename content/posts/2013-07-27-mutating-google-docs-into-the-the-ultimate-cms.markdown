@@ -45,7 +45,7 @@ Obviously the site compiler could be stored on git, mercurial or Dropbox, accord
  *   Contact forms via Google Forms, obviously :)
  *   Ability to publish documents from other sources, like markdown files from a SCM repository
  *   CDN publish option, like Amazon S3
- 
+
 ## Open questions ##
 
  *   How to control the publishing with Google Docs? I know that I can enable auto-publishing but clearly that’s not what I want, I want to be able to publish a document when I want. Maybe it would require some Google Drive scripting in the end.

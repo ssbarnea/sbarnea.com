@@ -19,7 +19,7 @@ Let's say that we want to implement ``Ctrl+A`` shortcut. In this case all we hav
 * usually is on the same position, it does move only on some layouts like French [AZERTY](http://en.wikipedia.org/wiki/AZERTY), and it's  logical to be moved - if the keyboard has an "A" printed on it user is supposed to press this button - we can't request French users to switch ``Ctrl-Q`` and ``Ctrl-A` just because they have a different keyboard layout.
  * we can't rely on the characters because many layouts do not produce Latin characters or some keys are not even producing a character (dead keys).
  * it's not safe to use the scan codes because they will break on AZERTY, <a href="http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">DVORAK </a>and other layouts.
- 
+
 I think I do not have to explain more why virtual keys are the way we must store and process keyboard shortcuts.
 
 And now let's try the same thing on Apple OS X platform. It does seem that apple has only 2 properties for keyboard events: key codes (`kEventParamKeyCode`) and characters. They consider key codes to be some sort of virtual keys, but in fact they are just physical key positions and this does mean that they are some sort of hardware independent scan codes.

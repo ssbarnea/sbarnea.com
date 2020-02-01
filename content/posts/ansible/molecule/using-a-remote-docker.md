@@ -15,7 +15,7 @@ Whatever if you are using an operating system that does not support docker or yo
 
 Docker added remoting support via ssh few years back but they missed to advertise it others. Mainly you can build and run containers on a remote host almost identically as you would do with a local one.
 
-Just add this to your `~/.bash_rc` file: 
+Just add this to your `~/.bash_rc` file:
 
 ```bash
 export DOCKER_HOST=ssh://n0.sbarnea.com
@@ -31,9 +31,8 @@ Assuming that you can ssh to that remote machine, docker commands that you call 
 # this will happen remotely too
 ```
 
-If you are using Python code that uses [python-docker](https://pypi.org/project/docker/) api, this will also be working. 
+If you are using Python code that uses [python-docker](https://pypi.org/project/docker/) api, this will also be working.
 
 My main desktop is MacOS where I didn't want to run container on, epecially during testing as I don't like to hear the CPU fans. I have being using this with [molecule](https://github.com/ansible/molecule/) for more than 6 months.
 
 Sadly podman does not yet has remoting support like docker but it is getting there.
-

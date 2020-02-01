@@ -49,4 +49,3 @@ Soon, I will complete this article with a matching algorithm implemented in Pyth
 *   [Language tags in HTML and XML (W3C)](https://www.w3.org/International/articles/language-tags/)
 *   [IANA listings of codes for languages, scripts, regions, variants and redundant codes in text, xml and SQL format (langtag.net)](http://www.langtag.net/registries/)
 *   [Ethnologue.com](https://www.ethnologue.com/)- encyclopedic reference of languages.
-

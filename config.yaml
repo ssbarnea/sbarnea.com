@@ -21,10 +21,10 @@ permalinks:
 publishDir: public
 
 taxonomies:
-    category : categories
-    tag : tags
-    series : series
-outputFormats:          # use for search. recommend not to modify
+  category: categories
+  tag: tags
+  series: series
+outputFormats:  # use for search. recommend not to modify
   SearchIndex:
     mediaType: "application/json"
     baseName: "searchindex"
@@ -32,7 +32,7 @@ outputFormats:          # use for search. recommend not to modify
     notAlternative: true
 
 outputs:
-    home: ["HTML","RSS","SearchIndex"]  # recommend not to modify
+  home: ["HTML", "RSS", "SearchIndex"]  # recommend not to modify
 # sitemap
 sitemap:
   changefreq: monthly
@@ -112,7 +112,7 @@ params:
 
   # profile
   profile:
-    enabled: true # Whether to show profile bar
+    enabled: true  # Whether to show profile bar
     avatar: avatar.jpg
     gravatar: sorin.sbarnea@gmail.com
     author: Sorin Sbarnea
@@ -127,7 +127,7 @@ params:
         twitter: https://twitter.com/sbarnea
         facebook: https://www.facebook.com/sorin.sbarnea
         rss: /index.xml
-      link_tooltip: false # enable the social link tooltip, options: true, false
+      link_tooltip: false  # enable the social link tooltip, options: true, false
   # Site
   site:
     logo:
@@ -149,7 +149,7 @@ params:
   # Comment
   comment:
     type: disqus
-    disqus: sbarnea # enter disqus shortname here
+    disqus: sbarnea  # enter disqus shortname here
 
   # Donate
   donate:
@@ -166,20 +166,20 @@ params:
     busuanzi:
       enable: false
     leancloud:
-      enable: false # leancloud
-      app_id: # leancloud <AppID>
-      app_key: # leancloud <AppKey>
+      enable: false  # leancloud
+      app_id:  # leancloud <AppID>
+      app_key:  # leancloud <AppKey>
 
   # wordcount
   postCount:
     enable: true
     wordcount: false
-    min2read: true # read time
+    min2read: true  # read time
 
   # config
   config:
-    skin: # theme color default is white. other type [theme-black,theme-blue,theme-green,theme-purple]
-    layout: main-center # main-left main-center main-right
+    skin:  # theme color default is white. other type [theme-black,theme-blue,theme-green,theme-purple]
+    layout: main-center  # main-left main-center main-right
     excerpt_link: Read More
     toc: true
 
@@ -188,7 +188,7 @@ params:
 
   # Search
   search:
-    enable: true # enable search. thanks for https://raw.githubusercontent.com/ppoffice/hexo-theme-icarus/master/source/js/insight.js
+    enable: true  # enable search. thanks for https://raw.githubusercontent.com/ppoffice/hexo-theme-icarus/master/source/js/insight.js
 
   # Sidebar only the following widgets. you can remove any you don't like it.
   widgets:
@@ -201,5 +201,5 @@ deployment:
   targets:
     - name: aws
       URL: s3://sbarnea.com?region=eu-west-1
-  # matchers:
-  #   - pattern: "^posts\\/"
+#  matchers:
+#    - pattern: "^posts\\/"

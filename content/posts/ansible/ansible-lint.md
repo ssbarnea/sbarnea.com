@@ -57,8 +57,3 @@ In the unlikely case where you would end up with `ansible-lint` errors caused by
         additional_dependencies:
           - zuul
 ```
-
-
-
-
-

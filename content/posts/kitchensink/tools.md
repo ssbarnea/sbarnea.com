@@ -28,4 +28,3 @@ Tools and libraries I LOVE,... most of the time,... most of them:
 
 * **iTerm** -- version 3.3 is even more awesome than ever, I really need to write about it. A primary blocker switching desktop from MacOS to Linux .
 * **Textual** - IRC client. While I hate irc protocol, I need to use use it for work, which currently is 99% FOSS.
-

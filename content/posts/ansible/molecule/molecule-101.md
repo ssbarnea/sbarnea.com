@@ -28,7 +28,7 @@ export ANSIBLE_VEBOSITY=2
 
 ## Passing Ansible arguments
 
-In the end, molecule will call Ansible for testing your code but this does not mean that you cannot add your own options. You just need to use positional arguments for achieve that: 
+In the end, molecule will call Ansible for testing your code but this does not mean that you cannot add your own options. You just need to use positional arguments for achieve that:
 
 ```bash
 molecule test -- --tags foo

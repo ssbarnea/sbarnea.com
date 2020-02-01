@@ -56,6 +56,3 @@ The sorting order is not configurable yet and is based on a scoring system which
 ### Future development
 
 You are welcomed to contribute new features to it, in the end is mare out out about 100 lines of python code. Before implementing a new feature is would better to[ create a bug](https://github.com/pycontribs/gri/issues) that describes the problem and the desired solution, based on this we can see if we can change its default behavior or make the new feature optional.
-
- 
-

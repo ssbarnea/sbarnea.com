@@ -26,4 +26,3 @@ set -euxo pipefail
 {% endhint %}
 
 This bash strict mode also works with [zsh](https://support.apple.com/en-us/HT208050) so no need to worry about forcing the shell, especially as in newer [MacOS default shell is zsh](https://support.apple.com/en-us/HT208050), kudos goes to Apple for having the balls to do it before others.
-

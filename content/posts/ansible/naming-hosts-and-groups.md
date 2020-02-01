@@ -24,7 +24,7 @@ As I personally would find confusing to use different naming rules for hosts and
 * **remove dashes from groups,** even if it will take months to finalize it
 * **rename groups** so they cannot accidentably be confused with single hosts. Using plurals seems fine.
 
-There are ways to disable deprecation warnings or even to change the the group naming rules but you will only prolong your pain. 
+There are ways to disable deprecation warnings or even to change the the group naming rules but you will only prolong your pain.
 
 {% code title="hosts.ini" %}
 ```text
@@ -41,4 +41,3 @@ There are ways to disable deprecation warnings or even to change the the group n
 {% endcode %}
 
 Most people thing that getting a bandaid off quickly is less painful.
-

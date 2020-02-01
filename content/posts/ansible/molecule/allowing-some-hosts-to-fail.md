@@ -64,4 +64,3 @@ I am not very please with the size of the current solution so if anyone has some
         missing: "{{ required | difference(groups['passed']) }}"
       when: "{{ missing }}"
 ```
-
