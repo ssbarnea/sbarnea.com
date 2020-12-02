@@ -147,9 +147,9 @@ params:
     # mobile_sites: weibo,qq,qzone
 
   # Comment
-  comment:
-    type: disqus
-    disqus: sbarnea  # enter disqus shortname here
+  # comment:
+  #   type: disqus
+  #   disqus: sbarnea  # enter disqus shortname here
 
   # Donate
   donate:
