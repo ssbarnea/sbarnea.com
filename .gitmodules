@@ -3,4 +3,7 @@
 	url = https://github.com/ssbarnea/hugo-theme-pure
 [submodule "themes/reveal-hugo"]
 	path = themes/reveal-hugo
-	url = git@github.com:dzello/reveal-hugo.git
+	url = https://github.com/ssbarnea/reveal-hugo
+[submodule "themes/hugo-theme-learn"]
+	path = themes/hugo-theme-learn
+	url = https://github.com/ssbarnea/hugo-theme-learn
