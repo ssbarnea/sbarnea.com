@@ -201,5 +201,6 @@ deployment:
   targets:
     - name: aws
       URL: s3://sbarnea.com?region=eu-west-1
+      cloudFrontDistributionID: E11OG9MABB38R1
 #  matchers:
 #    - pattern: "^posts\\/"
