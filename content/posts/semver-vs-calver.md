@@ -50,6 +50,6 @@ This means that:
 * ``19.0.1`` is a release that keeps API compatibility with 2019 versions but it may not necessarily be released in 2019, it could as well be a hot fix release January 2020 for the users of the old version.
 
 
-You may also find [https://snarky.ca/why-i-dont-like-semver/](why-i-dont-like-semver) blog post, useful in your chaise for for ultimate versioning scheme.
+You may also find [why-i-dont-like-semver](https://snarky.ca/why-i-dont-like-semver/) blog post, useful in your chaise for for ultimate versioning scheme.
 
 Feel free to email me personally and tell me how wrong I am ;)
