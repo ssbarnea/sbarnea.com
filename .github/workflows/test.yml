@@ -7,16 +7,16 @@ jobs:
 
     steps:
 
-    - name: Checkout
-      uses: actions/checkout@v2
-      with:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
           submodules: true
           fetch-depth: 0
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
           hugo-version: 'latest'
 
-    - name: make test
-      run: make test
+      - name: make test
+        run: make test
