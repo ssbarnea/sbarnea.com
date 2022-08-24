@@ -25,7 +25,7 @@ prepare:
 	echo
 
 build:  ## build
-	hugo --cleanDestinationDir --i18n-warnings --ignoreCache
+	hugo --cleanDestinationDir --ignoreCache
 
 clean:  ## clean
 	rm -rf public/
