@@ -25,7 +25,7 @@ prepare:
 	echo
 
 build:  ## build
-	hugo --cleanDestinationDir --i18n-warnings --ignoreCache
+	hugo --cleanDestinationDir --ignoreCache
 
 clean:  ## clean
 	rm -rf public/
@@ -34,8 +34,6 @@ bin/htmltest:
 	curl https://htmltest.wjdp.uk | bash
 
 test: build bin/htmltest  # test
-	hugo check ulimit
-	ulimit -n 2048
 	@echo "INFO: Validating output using https://github.com/wjdp/htmltest"
 	# ./bin/htmltest
 

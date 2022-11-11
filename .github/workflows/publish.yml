@@ -9,23 +9,23 @@ jobs:
 
     steps:
 
-    - name: Checkout
-      uses: actions/checkout@v2
-      with:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
           submodules: true
           fetch-depth: 0
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
           hugo-version: 'latest'
 
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v1
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
-        aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
 
-    - name: make deploy
-      run: make deploy
+      - name: make deploy
+        run: make deploy
